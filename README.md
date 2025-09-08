@@ -1,24 +1,21 @@
-# 🌀 SPI Controller (FPGA Implementation)
+ SPI Controller (FPGA Implementation)
 
-## 📖 Overview
 This project implements an **SPI (Serial Peripheral Interface) controller** on FPGA.  
 It supports:  
 - **All 4 SPI modes (Mode 0, 1, 2, 3)**  
-- **Full-duplex communication** (simultaneous transmit & receive)  
+- **Full-duplex communication** 
 - Configurable clock polarity (CPOL) and clock phase (CPHA)  
-- Flexible data width (parameterizable)  
 
-The design is written in synthesizable Verilog/SystemVerilog and verified with simulation testbenches.
+ Verified with simulation testbenches.
 
 ---
 
 ## 🛠 Features
-- ✅ Supports **SPI Master/Slave** configuration  
-- ✅ **4 modes of operation** (CPOL = 0/1, CPHA = 0/1)  
-- ✅ **Full-duplex** transfer with MOSI & MISO  
-- ✅ Parameterizable data width (e.g., 8-bit, 16-bit)  
-- ✅ Synchronous design with FPGA clock  
-- ✅ Waveform testbenches provided for **each mode**  
+-  Supports **SPI Master/Slave** configuration  
+-  **4 modes of operation** (CPOL = 0/1, CPHA = 0/1)  
+-  **Full-duplex** transfer with MOSI & MISO  
+-  Synchronous design with FPGA clock  
+-  Waveform testbenches provided for **each mode**  
 
 ---
 
